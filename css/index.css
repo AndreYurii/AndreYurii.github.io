@@ -39,3 +39,71 @@ a::before {
 #button:hover {
     transform: scale(1.08);
 }
+
+
+
+#banner {
+    position: absolute;
+    width: 627px;
+    height: 184px;
+    left: 91px;
+    top: 229px;
+    background: #2c2c54;
+    box-shadow: 5px 5px 0px #2c2c54;
+}
+
+#title {
+    width: 440px;
+    height: 40px;
+    left: 181px;
+    top: 271px;
+
+    color: #ff793f;
+
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height */
+
+    /* --color-first */
+
+    color: #ff793f;
+
+    text-shadow: 4px 4px 0px #000000;
+}
+
+.subtitle {
+    display: inline-flex;
+    align-items: center;
+    width: 540px;
+    height: 30px;
+    left: 131px;
+    top: 339px;
+    
+    /* Title */
+    
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    /* --color-third */
+
+    color: #FFFFFF;
+
+    text-shadow: 4px 4px 0px #000000;
+}
+
+.buttoncv {
+    display: inline-block;
+    background-color: #ff793f;
+    box-shadow: 5px 5px 0px #2c2c54;
+    padding: 18px 20px;
+    transition: transform 100ms linear;
+
+}
