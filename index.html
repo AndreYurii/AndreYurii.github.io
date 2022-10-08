@@ -4,18 +4,23 @@
     <meta charset="UTF-8" />
     <title>Andre Yuri</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
-   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/components/title.css">
-    <link rel="stylesheet" href="css/components/subtitle.css">
-    <link rel="stylesheet" href="css/components/box.css">
-    <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/action.css">
-    <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/banner.css">
+    <link rel="stylesheet" href="css/components/main-title.css" />
+    <link rel="stylesheet" href="css/components/subtitle.css" />
+    <link rel="stylesheet" href="css/components/box.css" />
+    <link rel="stylesheet" href="css/components/button.css" />
+    <link rel="stylesheet" href="css/components/action.css" />
+    <link rel="stylesheet" href="css/components/header.css" />
+    <link rel="stylesheet" href="css/components/banner.css" />
+    <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/skill-tec.css">
   </head>
   <body>
     <header class="header">
@@ -28,18 +33,30 @@
         <a class="button" href="">Download cv</a>
       </nav>
     </header>
-      <section class="banner">
-        <div class="wrapper">
-          <div class="box">  
-            <h1 class="title">Andre Yuri</h1>
-            <h2 class="subtitle">Full Stack Developer</h2>
-          </div>
-    
-          <div class="navigation">
-            <a class="button" href="">Download cv</a>
-            <a class="button" href="">Contacts</a>
-          </div>  
+    <section class="banner">
+      <div class="wrapper">
+        <div class="box">
+          <h1 class="main-title">Andre Yuri</h1>
+          <h2 class="subtitle">Full Stack Developer</h2>
         </div>
-      </section>
+
+        <div class="navigation">
+          <a class="button" href="">Download cv</a>
+          <a class="button" href="">Contacts</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="main-title -second">Skills</h2>
+
+      <dl class="skill-tec">
+        <dd class="icon">
+          <img src="img/ico_html5.png" alt="logo">
+        </dd>
+        <dt class="title">HTML</dt>
+      </dl>
+
+    </section>
   </body>
 </html>
